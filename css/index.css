@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url(../src/fundo.png);
+  background-color: #0e0e0e;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 43rem;
+
+  height: 40.125rem;
+  border-radius: 12px;
+  background: rgba(241, 241, 241, 0.18);
+  backdrop-filter: blur(12.550000190734863px);
+}
+
+.span-form {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 1rem 0rem 1rem;
+  color: rgb(150, 150, 150);
+  font-size: 1.25rem;
+  border: none;
+  font-family: Poppins;
+  outline: none;
+  width: 392px;
+  height: 68px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: rgba(14, 14, 14, 0.38);
+}
+
+.input-passaword {
+  font-size: 1.5rem;
+  color: #727272;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.input-email {
+  font-size: 1.5rem;
+  color: #727272;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.input-email:focus {
+  border: none;
+}
+
+.termos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: aliceblue;
+  gap: 10px;
+}
+
+.p-text {
+  font-weight: 400;
+  font-family: poppins;
+  font-size: 1rem;
+}
+
+/* .img-nav {
+    max-width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    left: -4px;
+    top: -11px;
+    z-index: -10;
+}
+
+div .retangulo {
+    height: 100vh;
+}
+
+
+.retangulo {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 572px;
+    top: 124px;
+    right: 20px;
+    z-index: -9;
+}
+
+
+.logo {
+    display: flex;
+    position: fixed;
+    top: 165px;
+    left: 848px;
+    width: 156px;
+}
+
+.container-email {
+    display: flex;
+    position: fixed;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+    padding: 11px;
+    top: 348px;
+    left: 689px;
+}
+
+.txt1 {
+    color: rgb(150, 150, 150);
+    font-size: 1.25rem;
+    padding-left: 4.375rem;
+    border: none;
+    font-family: Poppins;
+    outline: none;
+    width: 392px;
+    height: 68px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: rgba(14, 14, 14, 0.38);
+}
+
+.svg1 {
+    display: flex;
+    position: absolute;
+    left: 31px;
+    top: 31px;
+}
+
+.svg2 {
+    display: flex;
+    position: absolute;
+    left: 27px;
+    top: 141px;
+}
+
+#checkbox {
+    display: flex;
+    position: fixed;
+    top: 576px;
+    padding-left: 70px;
+    font-family: Poppins;
+    border: none;
+    outline: none;
+    width: 1629px;
+    height: 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-radius: 12px;
+    background: rgba(21, 21, 21, 0.88);
+}
+
+.therms {
+    display: flex;
+    position: absolute;
+    align-items: end;
+    color: aliceblue;
+    font-family: Poppins;
+    top: 572px;
+    left: 834px;
+    border: none;
+    appearance: none;
+    outline: none;
+}
+
+.password {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    left: 28px;
+    color: aliceblue;
+    gap: 10px;
+}
+
+.email {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: aliceblue;
+    gap: 37px;
+    top: 339px;
+    left: 719px;
+}
+
+
+@media (max-width:600px){
+    .svg2 {
+        width: 10px;
+      }
+}
+
+
+@media only screen and (max-width: 768px) {
+       .retangulo {
+         width: 10px;
+       }
+ } */

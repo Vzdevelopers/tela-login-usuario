@@ -1,0 +1,91 @@
+ /* .buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 20px;
+    left: 748px;
+    border: 3px #fff;
+    top: 665px;
+    color: #fff;
+    border: none;
+    border-style:none;
+    text-decoration: none;
+    border-radius: 25px;
+    background: rgb(175 175 175 / 10%);
+    width: 333px;
+    height: 57px;
+    flex-shrink: 0;
+    transition: 200ms ease-in-out ;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 73px -18px rgba(255, 255, 255, 0.534) inset;
+     
+} */
+
+.buttom {
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    transition: 300ms ease-in-out;
+    
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 73px -18px rgba(255, 255, 255, 0.534) inset;
+}
+
+
+/* .buttom {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.1;
+    font-family: "Hitmarker Text Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.88rem;
+    line-height: 0.88rem;
+    letter-spacing: 0.05em;
+    padding: 12px 24px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #000000;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: .6px;
+    padding: 8px 16px;
+    background: #D70000 !important;
+    color: #FFF !important;
+    outline-offset: 0;
+    outline: 1px solid transparent;
+    -webkit-transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -ms-transition: 0.25s all;
+    -o-transition: 0.25s all;
+    transition: 0.25s all;
+}
